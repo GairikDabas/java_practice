@@ -1,2 +1,5 @@
-package Practice.abstraction;public class Bank {
+package Practice.abstraction;
+
+public abstract class BankOfCanada {
+
 }

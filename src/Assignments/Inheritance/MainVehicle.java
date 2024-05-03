@@ -1,6 +1,6 @@
 package Assignments.Inheritance;
 
-public class Main{
+public class MainVehicle {
     public static void main(String[] args) {
         Car car = new Car("Toyota", "Camry", 2022);
         Motorcycle motorcycle = new Motorcycle("Honda", "CBR500R", 2020, 2);
@@ -8,18 +8,21 @@ public class Main{
 
         // Calling methods
         car.start();
-        car.displayInfo();
         car.stop();
+        car.displayInfo();
+
         System.out.println();
 
         motorcycle.start();
-        motorcycle.displayInfo();
         motorcycle.stop();
+        motorcycle.displayInfo();
+
         System.out.println();
 
         electricCar.start();
+        electricCar.stop();
         electricCar.displayInfo();
         electricCar.ChargingBattery();
-        electricCar.stop();
+
     }
 }
